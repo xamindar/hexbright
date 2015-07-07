@@ -27,13 +27,13 @@ Basic Operation
 *   3 Clicks-Nightlight mode
     *   When sitting still, the tailcap glows red.  When picked up, the light turns on to the brightest setting.  
     *   If not moved for 10 seconds it dims and the tailcap glows red again.
-    *   Holding the button will allow adjustment of the brightness of the light. This brightness will be saved in EEPROM and be remembered.
+    *   Holding the button will allow adjustment of the brightness of the light. This brightness will be saved in EEPROM and be remembered when the light is turned off.
 
 *   4 Clicks-SOS mode
     *   Light blinks SOS repeatededly in morse code
 
 *   5 Clicks-Lock mode
-    *   When locked, the light will not turn on.  5 clicks when locked will unlock the light.
+    *   When locked, the light will not turn on.  Any clicks while locked will cause the tail cap to flash red 2 times. Clicking 5 time when locked will unlock the light. After locking or unlocking the tail cap leds will flash 3 times as confirmation. Red for entering locked mode and green for exiting locked mode.
 
 Extras
 ----------------

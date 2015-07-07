@@ -1,6 +1,7 @@
-#include <Wire.h>
+#include <print_power.h>
 
-// uncomment #ACCELEROMETER in hexbright.h
+// These next two lines must come after all other library #includes
+#define BUILD_HACK
 #include <hexbright.h>
 
 hexbright hb;
@@ -48,6 +49,6 @@ void loop() {
     }
     last_dp = dp;
   } else if (mode==OFF_MODE) {
-    hb.print_power();
+    print_power();
   } 
 }
